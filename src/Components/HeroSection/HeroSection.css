@@ -1,0 +1,44 @@
+.hero-content {
+    align-items: center;
+}
+.hero-sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-sub-heading svg {
+    color: var(--primary);
+}
+
+.main-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.hero-content p {
+    max-width: 490px;
+}
+
+.video-btn {
+    background-color: var(--white);
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 3px 15px;
+    outline: none;
+    border: none ;
+}
+.video-btn svg {
+    color: var(--primary );
+    font-size: 32px;
+    margin-right: 5px;
+    margin-top: -4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.video-btn:hover svg {
+    color: var(--dark );
+    transform: scale(1.1);
+}

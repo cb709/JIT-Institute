@@ -1,0 +1,21 @@
+.header-nav-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-nav-link:hover,
+.active-nav {
+  background: var(--primary);
+  color: white;
+}
+
+.active-nav:hover {
+  background: var(--dark);
+  color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
